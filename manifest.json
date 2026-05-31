@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "YoutubeMeter",
+  "version": "1.0.0",
+  "description": "Tracks daily time spent on YouTube and shows it in the extension icon.",
+  "permissions": ["tabs", "storage", "alarms"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "YoutubeMeter"
+  }
+}
